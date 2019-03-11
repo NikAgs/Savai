@@ -26,20 +26,6 @@
 
 /* - General ------------------------------------------------------- */
 
-/* PRE LOADER */
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #fefefe;
-    z-index: 9999;
-    height: 100%;
-    width: 100%;
-    overflow: hidden !important;
-}
-
 .status {
     width: 105px;
     height: 50px;
@@ -172,8 +158,14 @@ h6{
     margin-top: 0px;
 }
 .titleSection p{
-    max-width: 400px;
+    max-width: 480px;
     margin: 0 auto;
+}
+#businessSub {
+    max-width: 575px;
+}
+.bulleted {
+    display:block;
 }
 /* line */
 .coloredLine{
@@ -192,7 +184,6 @@ h6{
     background: #F44C67;
     display: inline-block;
     padding: 15px 30px;
-    margin-bottom: 10px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -212,9 +203,11 @@ h6{
 }
 #usersBtn {
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 #businessBtn {
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 .personas {
     width: 180px;
@@ -516,7 +509,7 @@ h6{
     margin: 0px;
 }
 .bigWord{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     text-transform: uppercase;
     display: block;
@@ -853,8 +846,10 @@ footer p a,footer p a:hover,footer p a:focus {
 @media only screen and (max-width : 414px) {
     #usersBtn {
         margin-left: 0px;
+        margin-bottom: 10px;
     }
     #businessBtn {
         margin-right: 0px;
+        margin-bottom: 10px;
     }
 }
