@@ -201,17 +201,7 @@ h6{
     white-space: nowrap;
     border: none;
 }
-#usersBtn {
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-#businessBtn {
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-.personas {
-    width: 180px;
-}
+
 .btn-new:hover,.btn-new:focus{
     background: #FC647B;
     color: #fff;
@@ -333,7 +323,8 @@ h6{
 }
 .downloads a{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
+    width: 180px;
 }
 .downloads a:last-child{
     margin-right: 0px;
@@ -841,15 +832,4 @@ footer p a,footer p a:hover,footer p a:focus {
         max-width: 80%;
     }
 
-}
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 414px) {
-    #usersBtn {
-        margin-left: 0px;
-        margin-bottom: 10px;
-    }
-    #businessBtn {
-        margin-right: 0px;
-        margin-bottom: 10px;
-    }
 }
